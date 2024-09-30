@@ -954,3 +954,7 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+-- CUSTOM SETTINGS:
+vim.api.nvim_set_keymap('n', 'p', '"_dP', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('n', 'P', '"_dP', { noremap = true, silent = true })
